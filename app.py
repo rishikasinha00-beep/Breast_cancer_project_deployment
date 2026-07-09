@@ -124,7 +124,7 @@ h2, h3 {
 st.title(" Breast Cancer Detection System")
 
 st.write(
-    "Upload a breast cancer image to predict whether it is "
+    "Upload your Mamography to predict whether it is "
     "**Benign, Malignant, or Normal**."
 )
 
