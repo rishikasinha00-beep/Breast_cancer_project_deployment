@@ -134,7 +134,7 @@ st.write(
 # --------------------------------------------------
 
 uploaded_file = st.file_uploader(
-    "Upload Breast Cancer Image",
+    "Upload Your Mamography",
     type=["jpg", "jpeg", "png"]
 )
 
@@ -152,7 +152,7 @@ if uploaded_file is not None:
     # Display uploaded image
     st.image(
         image,
-        caption="Uploaded Breast Cancer Image",
+        caption="Uploaded Your Mamography",
         use_container_width=True
     )
 
